@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhscl/ruby-25-rhel7:latest
+FROM rhscl/ruby-25-rhel7:latest
 USER default
 EXPOSE 8080
 ENV RACK_ENV production
